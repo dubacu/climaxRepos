@@ -21,5 +21,14 @@ Il est accessible à partir de la racine du projet et comprends :
 * **Users.php** pour la gestion des données  des utilisateurs
 
 ### Backend
-il est accessible à travers le dossier **core** et comprends :
-* le dossier include
+il est accessible à travers le dossier **core** et dont les dossiers et fichiers essentiels sont : 
+   1.  le dossier include qui contient : 
+       * le dossier **managers** dont les fichiers contenus gèrent les accesseurs aux données des tables user et customers
+       * le dossier **models** dont les fichiers definissent le modèle de données et facilient la manipulation des données des tables 
+       * **DbConnect.php** qui configure et definit les variables d'acces à la base de données
+       * **Handler.php** qui est un controleur principal
+       * **Token.php** pas utilisé dans le systeme mais qui sera utile lorsque le fontend et le backend ne se trouvent pas sur le meme serveur et qu'on veille securiser la coommunication. la methode d'authentification utilisée est le Bearer et les tokens JWT(Json Web Tokens)
+       * **Utils.php** pour defenir mes methodes de validations et verification syntaxique incluants des **regex**
+  2. le dossier **middleware** pour le control des authentification et authorisation
+  3. le dossier **upload** qui contient les fichiers de type json, xml, csv, et txt uploadés
+  4. le fichier **index.php** qui est le routeur principal gerant l'ensemble des routes pour les APIs du système
