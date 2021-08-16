@@ -1,0 +1,19 @@
+{
+    "name": "climax/core",
+    "authors": [
+        {
+            "name": "@kevinDubacu",
+            "email": "kevinkabor@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.8",
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "include/",
+            "middleware\\": "middleware/"
+        }
+    }
+}

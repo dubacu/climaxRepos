@@ -1,0 +1,12 @@
+RewriteEngine on
+
+
+#USER
+RewriteRule ^$ login.php
+RewriteRule ^login$ login.php 
+RewriteRule ^dashboard$ dashboard.php 
+RewriteRule ^users$ users.php 
+RewriteRule ^customers$ customers.php 
+RewriteRule ^files$ files.php 
+
+

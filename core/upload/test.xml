@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<data>
+    <client>
+      <nom>Ilboudo</nom>
+      <prenom>Adama</prenom>
+      <age>21</age>
+      <profession>vigile</profession>
+      <salaire>11</salaire>
+    </client>
+    <client>
+      <nom>Traore</nom>
+      <prenom>Myriam</prenom>
+      <age>36</age>
+      <profession>communicateur</profession>
+      <salaire>42</salaire>
+    </client>
+    <client>
+      <nom>Sessouma</nom>
+      <prenom>Bernard</prenom>
+      <age>33</age>
+      <profession>Analyste</profession>
+      <salaire>150</salaire>
+    </client>>
+</data>

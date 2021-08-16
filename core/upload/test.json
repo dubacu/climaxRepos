@@ -1,0 +1,19 @@
+[{
+  "nom" : "Raven",
+  "prenom" :  "Jonathan",
+  "age" : "31",
+  "profession" : "economiste",
+  "salaire" :  "25"
+}, {
+  "nom" : "Trump",
+  "prenom" :  "Alex",
+  "age" : "27",
+  "profession" : "Footballeur",
+  "salaire" :  "101"
+}, {
+  "nom" : "Zorom",
+  "prenom" :  "Fred",
+  "age" : "29",
+  "profession" : "Eboueur",
+  "salaire" :  "17"
+}]
