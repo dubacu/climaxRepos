@@ -46,9 +46,12 @@ pour deployer le projet climax veillez suivre les instructions suivantes
 * une fois le projet cloné, vous verrez à l'interieur un fichier du nom de **climaxBD.sql** il sagit de la base de données sql à uploader dans le SGBD
 * apres avoir importé la base de données entrez dans le fichier **climax/core/incldue/DbConnect.php** et modifiez les variables de connexion à votre base de données
 * le système ainsi pret à etre utilisé: veillez utilisez les information suivantes pour vous connecter
-      * profil USER : **( username : zoure@gmail.com || password : 123456)**
-      * profil ADMIN : **(username : kevinkabor@gmail.com || password : 123456)**
+      1.  profil USER : **( username : zoure@gmail.com || password : 123456)**
+      2.  profil ADMIN : **(username : kevinkabor@gmail.com || password : 123456)**
+      
+NB: pour la lecture des fichiers de format json, xml, csv, txt, veillez acceder au dossier **climax/core/upload** puis telecharger les diferents fichiers et laisser le dossier vide. Il s"agit des exemple de structuration des formats de fichiers que vous devez respecter afin de faciliter le parseur implémenté. 
 
+pour vos test directement, veillez accedé au projet deja hebergé en ligne via : [https://virtuose-it.com/climax](https://virtuose-it.com/climax) et utlisez les information de connexion precedemment citées.
 
 
 
