@@ -5,8 +5,8 @@ use \PDO;
 
 	define('SERVER', 'localhost');
 	define('DBNAME', 'climaxBD');  
-	define('USERNAME', 'root');
-	define('PASSWORD', 'Ja4EsFzPyQ56e7PB');  
+	define('USERNAME', 'YOUR_DB_USERNAME');
+	define('PASSWORD', 'YOUR_DB_PASSWORD');  
 
 class DbConnect
 {
