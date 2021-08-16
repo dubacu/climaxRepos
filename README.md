@@ -2,7 +2,7 @@
 
 1. [Infos générales](#general-info)
 2. [Technologies Utilisées](#technologies)
-3. [Installation](#installation)
+3. [Déploiement](#Deploiement)
 
 ## 1. Infos Générales
 Dans ce projet, vous aurez deux volets : 
@@ -32,3 +32,23 @@ il est accessible à travers le dossier **core** et dont les dossiers et fichier
   2. le dossier **middleware** pour le control des authentification et authorisation
   3. le dossier **upload** qui contient les fichiers de type json, xml, csv, et txt uploadés
   4. le fichier **index.php** qui est le routeur principal gerant l'ensemble des routes pour les APIs du système
+
+## 2. Technologies utilisées
+Coté Front end nous lui avons utilisé **Bootstrap** pour la mise en page du code **HTML**. **JQuery** a été utilisé pour l'écriture des scripts côté client. Afin d’actualiser certaines données d'une page sans procéder au rechargement total de cette page nous avons utilisé **AJAX** pour l’interrogation des APIs
+
+Coté Back-end  nous avons utilisé **PHP** comme langage de programmation. Afin de bénéficier d’une architecture simplifiée, nous avons opté pour le **micro framework Slim** pour le développement.  En réalité Slim simplifie l’intégration du  MVC ce qui permet une séparation des différentes couches applicatives, facilitant le développement et la maintenance du logiciel. pour l'implementation des tokens d'authentification, nous utilisons **JWT**
+
+Coté SGBD, nous avons utliser **mysql**.
+
+## 2. Déploiement
+pour deployer le projet climax veillez suivre les instructions suivantes
+* Cloner le projet.
+* une fois le projet cloné, vous verrez à l'interieur un fichier du nom de **climaxBD.sql** il sagit de la base de données sql à uploader dans le SGBD
+* apres avoir importé la base de données entrez dans le fichier **climax/core/incldue/DbConnect.php** et modifiez les variables de connexion à votre base de données
+* le système ainsi pret à etre utilisé: veillez utilisez les information suivantes pour vous connecter
+      * profil USER : **( username : zoure@gmail.com || password : 123456)**
+      * profil ADMIN : **(username : kevinkabor@gmail.com || password : 123456)**
+
+
+
+
